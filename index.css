@@ -13,6 +13,8 @@ section#first{
 }
 .half-width{
     width: 49%;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .left, .right{
@@ -29,6 +31,8 @@ section#first{
 }
 #first{
     color: #f9fAf8;
+    align-items: center;
+    vertical-align: middle;
 }
 #first button {
     background: #3882F6; /* Elimina el fondo */
@@ -60,6 +64,9 @@ section#first{
     font-size: 18px;
 
 }
+#header a:hover{
+    color: #3882f6;
+}
 footer{
     color: #f9fAf8;
 }
@@ -86,6 +93,7 @@ footer{
     min-height: 150px;
     max-height: 150px;
     height: auto;
+    object-fit: cover;
 }
 #random-info p{
     font-size: 18px;
@@ -157,4 +165,15 @@ div.quote{
 }
 #call-to-action div{
     justify-content: space-between;
+}
+#img_header{
+    width: 100px;
+    height: auto;
+}
+#main_image{
+    width: 100%;
+    height: 300px;
+    /* cover image */
+    object-fit:cover;
+    border-radius: 20px;
 }
