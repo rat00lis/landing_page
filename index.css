@@ -1,0 +1,160 @@
+
+body{
+    font-family: monospace;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+}
+
+section#first{
+    padding: 50px 105px 50px 105px;
+}
+.half-width{
+    width: 49%;
+}
+
+.left, .right{
+    display: inline-block;
+}
+#first h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+#first p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+#first{
+    color: #f9fAf8;
+}
+#first button {
+    background: #3882F6; /* Elimina el fondo */
+    color: #f9fAf8; /* Hereda el color del elemento padre */
+    border: none; /* Elimina el borde */
+    padding: 7px 25px 7px 25px; /* Elimina el padding */ 
+    cursor: pointer; /* Mantiene el cursor como pointer para indicar que es un botón */
+    outline: none; /* Elimina el contorno que se muestra al hacer foco en el botón */
+    -webkit-appearance: none; /* Desactiva estilos predeterminados en Webkit/Blink */
+    -moz-appearance: none; /* Desactiva estilos predeterminados en Firefox */
+    appearance: none; /* Desactiva estilos predeterminados para el futuro */
+    border-radius: 10px;
+}
+
+.flex-horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+#header{
+    color: #f9fAf8;
+    justify-content: space-between;
+    padding: 20px 40px 20px 90px;
+}
+#header a{
+    color: #f9fAf8;
+    /* delete all presets */
+    text-decoration: none;
+    font-size: 18px;
+
+}
+footer{
+    color: #f9fAf8;
+}
+.margins20{
+    margin: 20px;
+}
+.dark-blue{
+    background-color: #1f2937;
+}
+#random-info{
+    padding: 50px 150px 50px 150px;
+}
+#random-info h1{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #1f2937
+}
+#random-info img{
+    border: #3882f6 3px solid;
+    border-radius: 10px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    height: auto;
+}
+#random-info p{
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blue-gray{
+    background-color: #E5E7EB;
+}
+p.quote{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: left;
+    font-style: italic;
+}
+div.quote{
+    justify-content: center;
+    padding: 100px;
+}
+.quote h4{
+    font-size: 30px;
+    text-align: right;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4px;
+}
+.vertical h4,p{
+    margin: 0;
+}
+.vertical p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.vertical h4{
+    font-size: 24px;
+    color: #f9fAf8;
+}
+.blue{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+}
+#call-to-action{
+    padding: 50px 100px 50px 100px;
+}
+#call-to-action button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    color: #f9fAf8;
+    font-size: 18px;
+    border: white 2px solid;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+#call-to-action button:hover{
+    background-color: #1f2937;
+}
+#call-to-action div{
+    justify-content: space-between;
+}
